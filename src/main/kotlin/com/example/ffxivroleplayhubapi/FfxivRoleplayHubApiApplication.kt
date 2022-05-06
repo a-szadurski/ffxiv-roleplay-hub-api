@@ -1,3 +1,5 @@
+@file:Suppress("SpellCheckingInspection")
+
 package com.example.ffxivroleplayhubapi
 
 import org.springframework.boot.autoconfigure.SpringBootApplication

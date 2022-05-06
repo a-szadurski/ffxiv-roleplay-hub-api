@@ -25,7 +25,6 @@ internal class PlayerCharacterMapperTest {
         val entity = mapper.toEntity(dto)
         assertThat(entity)
             .returns("firstName", from { it.firstName })
-
     }
 
     @Test
@@ -35,7 +34,6 @@ internal class PlayerCharacterMapperTest {
         val model = mapper.toModel(entity)
         assertThat(model)
             .returns("firstName", from { it.firstName })
-
     }
 
     private fun createDto(): PlayerCharacterDto {

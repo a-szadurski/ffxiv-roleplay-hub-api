@@ -13,7 +13,6 @@ class PlayerCharacterService(
 ) {
 
     fun savePlayerCharacter(input: PlayerCharacterDto): PlayerCharacter {
-
         return mapper.toModel(repository.save(mapper.toEntity(input)))
     }
 }

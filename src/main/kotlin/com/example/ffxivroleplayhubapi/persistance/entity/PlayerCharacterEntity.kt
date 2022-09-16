@@ -17,8 +17,12 @@ class PlayerCharacterEntity(
     @Column(name = "first_name")
     val firstName: String,
 
+    @Column(name = "last_name")
     val lastName: String
 
 ) {
-    fun toModel() = PlayerCharacter(firstName = firstName)
+    fun toModel() = PlayerCharacter(
+        firstName = firstName,
+        lastName = lastName
+    )
 }

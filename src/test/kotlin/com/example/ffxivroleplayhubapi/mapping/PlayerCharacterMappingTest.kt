@@ -1,4 +1,4 @@
-package com.example.ffxivroleplayhubapi.service.mapper
+package com.example.ffxivroleplayhubapi.mapping
 
 import com.example.ffxivroleplayhubapi.dto.PlayerCharacterDto
 import com.example.ffxivroleplayhubapi.persistance.entity.PlayerCharacterEntity
@@ -19,6 +19,7 @@ internal class PlayerCharacterMappingTest {
         val entity = dto.toEntity()
         assertThat(entity)
             .returns("firstName", from { it.firstName })
+            .returns("lastName", from { it.lastName })
     }
 
     @Test
@@ -28,10 +29,11 @@ internal class PlayerCharacterMappingTest {
         val model = entity.toModel()
         assertThat(model)
             .returns("firstName", from { it.firstName })
+            .returns("lastName", from { it.lastName })
     }
 
     private fun createDto(): PlayerCharacterDto {
-        return PlayerCharacterDto("firstName")
+        return PlayerCharacterDto("firstName", "lastName")
     }
 
     private fun createEntity(): PlayerCharacterEntity {

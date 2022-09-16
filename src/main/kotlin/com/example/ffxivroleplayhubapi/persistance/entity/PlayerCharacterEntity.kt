@@ -1,5 +1,6 @@
 package com.example.ffxivroleplayhubapi.persistance.entity
 
+import com.example.ffxivroleplayhubapi.model.PlayerCharacter
 import java.util.*
 import javax.persistence.Column
 import javax.persistence.Entity
@@ -14,6 +15,10 @@ class PlayerCharacterEntity(
     val id: UUID?,
 
     @Column(name = "first_name")
-    val firstName: String
+    val firstName: String,
 
-)
+    val lastName: String
+
+) {
+    fun toModel() = PlayerCharacter(firstName = firstName)
+}

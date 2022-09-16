@@ -6,23 +6,17 @@ import org.assertj.core.api.Assertions.assertThat
 import org.assertj.core.api.Assertions.from
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.extension.ExtendWith
-import org.springframework.beans.factory.annotation.Autowired
-import org.springframework.test.context.ContextConfiguration
 import org.springframework.test.context.junit.jupiter.SpringExtension
 import java.util.*
 
 @ExtendWith(SpringExtension::class)
-@ContextConfiguration(classes = [PlayerCharacterMapperImpl::class])
-internal class PlayerCharacterMapperTest {
-
-    @Autowired
-    lateinit var mapper: PlayerCharacterMapper
+internal class PlayerCharacterMappingTest {
 
     @Test
     fun `given a dto when mapping to entity then all fields should be mapped correctly`() {
 
         val dto = createDto()
-        val entity = mapper.toEntity(dto)
+        val entity = dto.toEntity()
         assertThat(entity)
             .returns("firstName", from { it.firstName })
     }
@@ -31,7 +25,7 @@ internal class PlayerCharacterMapperTest {
     fun `given an entity when mapping to model then all fields should be mapped correctly`() {
 
         val entity = createEntity()
-        val model = mapper.toModel(entity)
+        val model = entity.toModel()
         assertThat(model)
             .returns("firstName", from { it.firstName })
     }
@@ -41,7 +35,7 @@ internal class PlayerCharacterMapperTest {
     }
 
     private fun createEntity(): PlayerCharacterEntity {
-        return PlayerCharacterEntity(UUID.randomUUID(), "firstName")
+        return PlayerCharacterEntity(UUID.randomUUID(), "firstName", "lastName")
     }
 
 }

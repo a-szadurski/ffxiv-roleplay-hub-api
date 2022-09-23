@@ -2,10 +2,7 @@ package com.example.ffxivroleplayhubapi.persistance.entity
 
 import com.example.ffxivroleplayhubapi.model.PlayerCharacter
 import java.util.*
-import javax.persistence.Column
-import javax.persistence.Entity
-import javax.persistence.GeneratedValue
-import javax.persistence.Id
+import javax.persistence.*
 
 @Entity
 class PlayerCharacterEntity(
@@ -18,11 +15,18 @@ class PlayerCharacterEntity(
     val firstName: String,
 
     @Column(name = "last_name")
-    val lastName: String
+    val lastName: String,
+
+    @ManyToOne(fetch = FetchType.EAGER)
+    val user: UserEntity,
+
+    @ManyToMany(fetch = FetchType.LAZY)
+    val organizations: List<OrganizationEntity>
 
 ) {
     fun toModel() = PlayerCharacter(
         firstName = firstName,
-        lastName = lastName
+        lastName = lastName,
+        user = user.toModel()
     )
 }

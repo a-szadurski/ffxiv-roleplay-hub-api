@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class FfxivRoleplayHubApiApplication
+class MockApp
 
 fun main(args: Array<String>) {
-    runApplication<FfxivRoleplayHubApiApplication>(*args)
+    runApplication<MockApp>(*args)
 }

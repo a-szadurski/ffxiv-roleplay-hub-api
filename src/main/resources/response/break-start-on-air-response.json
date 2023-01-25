@@ -1,0 +1,283 @@
+{
+  "_embedded": {
+    "events": [
+      {
+        "id": "{090E3587-BAA8EA6A}",
+        "bxfId": "0fd8ae37-352f-4b6e-a4a7-f0e93708fced",
+        "type": "CHAPTER",
+        "subtype": "PART",
+        "live": true,
+        "startTime": "2023-01-23T12:11:33:16Z",
+        "duration": "00:15:08:09",
+        "productionId": "2-6292-1016-001",
+        "materialId": "ITV_2-6292-1016-001_TX",
+        "title": "9/9 - THIS MORNING (CONT)",
+        "channel": {
+          "id": 1,
+          "name": "ITV1",
+          "region": "LON"
+        },
+        "lastModifiedTime": "2023-01-23T12:07:21.000Z",
+        "versionCcid": "mcs4hf9",
+        "scte": [
+          {
+            "id": 19959992,
+            "commandType": "TIME_SIGNAL"
+          }
+        ]
+      },
+      {
+        "id": "{3ED721EB-305D1F79}",
+        "bxfId": "d83cb78d-bcf1-46dd-ee7b-b110b4010c09",
+        "type": "SPONSORSHIP",
+        "subtype": "SPON",
+        "live": null,
+        "startTime": "2023-01-23T12:26:42:00Z",
+        "duration": "00:00:05:00",
+        "productionId": "SPO-TMAC-050-05",
+        "materialId": "ITV_SPO-TMAC-050-05_TX",
+        "title": "THIS MORNING - ARNOLD CLARK",
+        "channel": {
+          "id": 1,
+          "name": "ITV1",
+          "region": "LON"
+        },
+        "lastModifiedTime": "2023-01-23T11:50:17.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 19959993,
+            "commandType": "TIME_SIGNAL"
+          }
+        ]
+      },
+      {
+        "id": "{1841FE0F-F1ADBE5F}",
+        "bxfId": "0933a209-9625-6a28-9782-f80352f20da8",
+        "type": "BREAK",
+        "subtype": "EBRK",
+        "live": null,
+        "startTime": "2023-01-23T12:26:47:00Z",
+        "duration": "00:01:33:00",
+        "productionId": null,
+        "materialId": null,
+        "title": null,
+        "channel": {
+          "id": 1,
+          "name": "ITV1",
+          "region": "LON"
+        },
+        "lastModifiedTime": "2023-01-23T11:50:17.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 19959994,
+            "commandType": "TIME_SIGNAL"
+          },
+          {
+            "id": 123231228,
+            "commandType": "SPLICE_INSERT"
+          }
+        ]
+      },
+      {
+        "id": "{3EAACF36-3BB635B1}",
+        "bxfId": "50edddca-4272-6a5a-ad51-ed2b5a15636b",
+        "type": "BUMPER",
+        "subtype": "BUMP",
+        "live": null,
+        "startTime": "2023-01-23T12:26:47:00Z",
+        "duration": "00:00:01:13",
+        "productionId": "NK22410024",
+        "materialId": "ITV_NK22410024_TX",
+        "title": "ITV1 BRANDING 22/23 - BOND BREAK BUMPERS 00-01 IMPACTFUL",
+        "channel": {
+          "id": 1,
+          "name": "ITV1",
+          "region": "LON"
+        },
+        "lastModifiedTime": "2023-01-23T11:50:17.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 19996836,
+            "commandType": "TIME_SIGNAL"
+          }
+        ]
+      },
+      {
+        "id": "{0F135CBB-72D7F114}",
+        "bxfId": "cac5fe13-43e1-e971-b6c8-a4f09a4f8e45",
+        "type": "SPOT",
+        "subtype": "COMM",
+        "live": null,
+        "startTime": "2023-01-23T12:26:48:13Z",
+        "duration": "00:00:30:00",
+        "productionId": "JYF-HUUK025-030",
+        "materialId": "ITV_JYF-HUUK025-030_TX",
+        "title": "ALASKA",
+        "channel": {
+          "id": 1,
+          "name": "ITV1",
+          "region": "LON"
+        },
+        "lastModifiedTime": "2023-01-23T11:50:17.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 19960791,
+            "commandType": "TIME_SIGNAL"
+          },
+          {
+            "id": 71948981,
+            "commandType": "SPLICE_INSERT"
+          }
+        ]
+      },
+      {
+        "id": "{4C11C99F-6ADDF135}",
+        "bxfId": "4e030520-7284-cafe-e029-dbf0468d33e0",
+        "type": "SPOT",
+        "subtype": "COMM",
+        "live": null,
+        "startTime": "2023-01-23T12:27:18:13Z",
+        "duration": "00:00:30:00",
+        "productionId": "ANO-ANCY154-030",
+        "materialId": "ITV_ANO-ANCY154-030_TX",
+        "title": "ANCESTRY - SUFFRAGETTES 30 -",
+        "channel": {
+          "id": 1,
+          "name": "ITV1",
+          "region": "LON"
+        },
+        "lastModifiedTime": "2023-01-23T11:50:17.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 19960792,
+            "commandType": "TIME_SIGNAL"
+          },
+          {
+            "id": 71948532,
+            "commandType": "SPLICE_INSERT"
+          }
+        ]
+      },
+      {
+        "id": "{2DE57604-1EF60129}",
+        "bxfId": "bc9c1ba5-17b0-4dde-9475-c9e2c7629843",
+        "type": "SPOT",
+        "subtype": "COMM",
+        "live": null,
+        "startTime": "2023-01-23T12:27:48:13Z",
+        "duration": "00:00:30:00",
+        "productionId": "SSC-BTDG205-030",
+        "materialId": "ITV_SSC-BTDG205-030_TX",
+        "title": "BT - JANUARY SALE1449 A MONTH FOR 6 MONTHS 0 UPFRONT24 MONTH CONTRACT ENDS 010223NON SKY -",
+        "channel": {
+          "id": 1,
+          "name": "ITV1",
+          "region": "LON"
+        },
+        "lastModifiedTime": "2023-01-23T11:50:17.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 19960793,
+            "commandType": "TIME_SIGNAL"
+          },
+          {
+            "id": 71950852,
+            "commandType": "SPLICE_INSERT"
+          }
+        ]
+      },
+      {
+        "id": "{6DFCB037-7F8D96C2}",
+        "bxfId": "4e60d3fe-f07f-6e85-ddf2-defe2a7b34bd",
+        "type": "BUMPER",
+        "subtype": "BUMP",
+        "live": null,
+        "startTime": "2023-01-23T12:28:18:13Z",
+        "duration": "00:00:01:12",
+        "productionId": "NK22410021",
+        "materialId": "ITV_NK22410021_TX",
+        "title": "ITV1 BRANDING 22/23 - BOND BREAK BUMPERS 00-01 IMPACTFUL",
+        "channel": {
+          "id": 1,
+          "name": "ITV1",
+          "region": "LON"
+        },
+        "lastModifiedTime": "2023-01-23T11:50:17.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 19996838,
+            "commandType": "TIME_SIGNAL"
+          }
+        ]
+      },
+      {
+        "id": "{6429015E-9820708C}",
+        "bxfId": "b10e45f9-22d5-40e8-91ec-f73e8b9691ac",
+        "type": "SPONSORSHIP",
+        "subtype": "SPON",
+        "live": null,
+        "startTime": "2023-01-23T12:28:20:00Z",
+        "duration": "00:00:15:00",
+        "productionId": "SPO-LWFR-106-15",
+        "materialId": "ITV_SPO-LWFR-106-15_TX",
+        "title": "LOOSE WOMEN - FREEMANS",
+        "channel": {
+          "id": 1,
+          "name": "ITV1",
+          "region": "LON"
+        },
+        "lastModifiedTime": "2023-01-23T11:53:48.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 19959995,
+            "commandType": "TIME_SIGNAL"
+          }
+        ]
+      },
+      {
+        "id": "{3D5E27F1-68181816}",
+        "bxfId": "7e5a4d75-1c8c-c627-ccd3-b78213fa0ad4",
+        "type": "CHAPTER",
+        "subtype": "PROG",
+        "live": true,
+        "startTime": "2023-01-23T12:28:35:00Z",
+        "duration": "00:16:15:00",
+        "productionId": "1-3173-4157-001",
+        "materialId": "ITV_1-3173-4157-001_TX",
+        "title": "1/4 - LOOSE WOMEN",
+        "channel": {
+          "id": 1,
+          "name": "ITV1",
+          "region": "LON"
+        },
+        "lastModifiedTime": "2023-01-23T11:53:48.000Z",
+        "versionCcid": "t7p7v7c",
+        "scte": [
+          {
+            "id": 19959996,
+            "commandType": "TIME_SIGNAL"
+          }
+        ]
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "https://api.prd.bs.itv.com/on-air-event-api/events/channel/ITV1.LON?periodMinutes=7&bxfId=0fd8ae37-352f-4b6e-a4a7-f0e93708fced&page=1&size=40"
+    }
+  },
+  "page": {
+    "size": 40,
+    "totalElements": 10,
+    "totalPages": 1,
+    "number": 1
+  }
+}

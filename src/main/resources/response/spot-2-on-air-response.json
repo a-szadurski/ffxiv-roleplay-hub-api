@@ -1,0 +1,216 @@
+{
+  "_embedded": {
+    "events": [
+      {
+        "id": "{1E914071-0E9C0CEF}",
+        "bxfId": "e0a5ef47-f794-41c5-dcb7-ab700f039a3d",
+        "type": "SPOT",
+        "subtype": "COMM",
+        "live": null,
+        "startTime": "2023-01-25T13:55:06:13Z",
+        "duration": "00:00:30:00",
+        "productionId": "NVC-ENGA002-030",
+        "materialId": "ITV_NVC-ENGA002-030_TX",
+        "title": "ENTAIN - GALA LANDBRAND 30 TVC -",
+        "channel": {
+          "id": 1,
+          "name": "ITV1",
+          "region": "LON"
+        },
+        "lastModifiedTime": "2023-01-25T13:11:38.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 20010489,
+            "commandType": "TIME_SIGNAL"
+          },
+          {
+            "id": 71949692,
+            "commandType": "SPLICE_INSERT"
+          }
+        ]
+      },
+      {
+        "id": "{5128CBE2-149FF43C}",
+        "bxfId": "84a9cf96-e8e2-63a5-bc3d-8985b9dd2ad5",
+        "type": "BUMPER",
+        "subtype": "BUMP",
+        "live": null,
+        "startTime": "2023-01-25T13:55:36:13Z",
+        "duration": "00:00:01:12",
+        "productionId": "NK22410020",
+        "materialId": "ITV_NK22410020_TX",
+        "title": "ITV1 BRANDING 22/23 - BOND BREAK BUMPERS 00-01 WAVE",
+        "channel": {
+          "id": 1,
+          "name": "ITV1",
+          "region": "LON"
+        },
+        "lastModifiedTime": "2023-01-25T13:11:38.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 20017856,
+            "commandType": "TIME_SIGNAL"
+          }
+        ]
+      },
+      {
+        "id": "{1A03B73F-8D886AA3}",
+        "bxfId": "c7f73e07-6a9e-efd4-c48b-efef90c37c80",
+        "type": "CHAPTER",
+        "subtype": "PROG",
+        "live": true,
+        "startTime": "2023-01-25T13:55:38:00Z",
+        "duration": "00:03:00:00",
+        "productionId": "LON04WE23-RN13",
+        "materialId": "ITV_LON04WE23-RN13_TX",
+        "title": "1/1 - ITV NEWS LONDON",
+        "channel": {
+          "id": 1,
+          "name": "ITV1",
+          "region": "LON"
+        },
+        "lastModifiedTime": "2023-01-25T13:12:08.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 20009987,
+            "commandType": "TIME_SIGNAL"
+          }
+        ]
+      },
+      {
+        "id": "{5D89C3D0-D12C262D}",
+        "bxfId": "e92bbe4f-5239-4d52-cd5d-af006ffd28f4",
+        "type": "CHAPTER",
+        "subtype": "PROG",
+        "live": true,
+        "startTime": "2023-01-25T13:58:38:00Z",
+        "duration": "00:01:00:00",
+        "productionId": "LON04WE23-WX13",
+        "materialId": "ITV_LON04WE23-WX13_TX",
+        "title": "1/1 - ITV LONDON WEATHER",
+        "channel": {
+          "id": 1,
+          "name": "ITV1",
+          "region": "LON"
+        },
+        "lastModifiedTime": "2023-01-25T13:24:46.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 20009988,
+            "commandType": "TIME_SIGNAL"
+          }
+        ]
+      },
+      {
+        "id": "{2E62AF58-DB52B412}",
+        "bxfId": "9bae35dc-4739-6be1-9199-a164a181d0f7",
+        "type": "PROMO",
+        "subtype": "IDEN",
+        "live": null,
+        "startTime": "2023-01-25T13:59:38:00Z",
+        "duration": "00:00:11:00",
+        "productionId": "NK22460002",
+        "materialId": "ITV_NK22460002_TX",
+        "title": "IDENTS - REMAKE ITV1 TRAIN STATION - DAN",
+        "channel": {
+          "id": 1,
+          "name": "ITV1",
+          "region": "LON"
+        },
+        "lastModifiedTime": "2023-01-25T13:24:46.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 20009989,
+            "commandType": "TIME_SIGNAL"
+          }
+        ]
+      },
+      {
+        "id": "{3B508923-A8B77684}",
+        "bxfId": "438f826d-7620-c42e-8194-a3372d30af54",
+        "type": "PROMO",
+        "subtype": "BLAC",
+        "live": null,
+        "startTime": "2023-01-25T13:59:49:00Z",
+        "duration": "00:00:01:00",
+        "productionId": null,
+        "materialId": "",
+        "title": "NETWORK BLACK EVENT AFD 6",
+        "channel": {
+          "id": 1,
+          "name": "ITV1",
+          "region": "LON"
+        },
+        "lastModifiedTime": "2023-01-25T13:24:46.000Z",
+        "versionCcid": null,
+        "scte": []
+      },
+      {
+        "id": "{7703791C-E0ACBAE7}",
+        "bxfId": "8802e42d-4aec-6b77-ed56-cdc1e8d2faa9",
+        "type": "SPONSORSHIP",
+        "subtype": "SPON",
+        "live": null,
+        "startTime": "2023-01-25T13:59:50:00Z",
+        "duration": "00:00:15:00",
+        "productionId": "SPO-EFWB-068-15",
+        "materialId": "ITV_SPO-EFWB-068-15_TX",
+        "title": "EVERDAY FAVS - WILLOWBROOK - 2",
+        "channel": {
+          "id": 1,
+          "name": "ITV1",
+          "region": "LON"
+        },
+        "lastModifiedTime": "2023-01-25T13:28:16.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 20009990,
+            "commandType": "TIME_SIGNAL"
+          }
+        ]
+      },
+      {
+        "id": "{13E3FB50-EE4BF618}",
+        "bxfId": "08cd59ff-f701-c655-df1d-ab1a5ffcd18b",
+        "type": "CHAPTER",
+        "subtype": "PROG",
+        "live": false,
+        "startTime": "2023-01-25T14:00:05:00Z",
+        "duration": "00:10:53:00",
+        "productionId": "1-8665-1062-001",
+        "materialId": "ITV_1-8665-1062-001_HD_TX",
+        "title": "1/4 - DICKINSON'S REAL DEAL",
+        "channel": {
+          "id": 1,
+          "name": "ITV1",
+          "region": "LON"
+        },
+        "lastModifiedTime": "2023-01-25T13:28:16.000Z",
+        "versionCcid": "8j0qgdk",
+        "scte": [
+          {
+            "id": 20009991,
+            "commandType": "TIME_SIGNAL"
+          }
+        ]
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "https://api.prd.bs.itv.com/on-air-event-api/events/channel/ITV1.LON?periodMinutes=7&bxfId=e0a5ef47-f794-41c5-dcb7-ab700f039a3d&page=1&size=40"
+    }
+  },
+  "page": {
+    "size": 40,
+    "totalElements": 8,
+    "totalPages": 1,
+    "number": 1
+  }
+}

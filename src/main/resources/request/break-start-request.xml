@@ -1,0 +1,15 @@
+<SignalProcessingEvent xmlns="urn:cablelabs:iptvservices:esam:xsd:signal:1"
+                       xmlns:sig="urn:cablelabs:md:xsd:signaling:3.0"
+                       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       xsi:schemaLocation="urn:cablelabs:iptvservices:esam:xsd:signal:1 OC-SP-ESAM- API-I0x-Signal.xsd">
+    \t
+    <AcquiredSignal acquisitionPointIdentity="itv.awscloud.itv1.lond.blue.local"
+                    acquisitionSignalID="5546DF67-67DA-497E-88E2-66758DEB0D39"
+                    acquisitionTime="2023-01-23T12:11:39.262Z">\t\t<sig:UTCPoint utcPoint="2023-01-23T12:11:53.698Z"/>
+        \t\t<sig:BinaryData signalType="SCTE35">
+            /DBqAAAAAAAAAP/wBQb/Hsi/kwBUAlJDVUVJATCQuH//AAQSU/ABPjB4MDEwMTAxMDEsdXJuOnV1aWQ6MGZkOGFlMzctMzUyZi00YjZlLWE0YTctZjBlOTM3MDhmY2VkLDMxLzUwAQAA17pYKw==</sig:BinaryData>\t\t
+        <sig:StreamTimes>\t\t\t<sig:StreamTime timeType="PTS" timeValue="4811440019"/>\t\t
+        </sig:StreamTimes>
+        \t
+    </AcquiredSignal>
+</SignalProcessingEvent>

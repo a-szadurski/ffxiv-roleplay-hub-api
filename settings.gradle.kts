@@ -1,1 +1,1 @@
-rootProject.name = "ffxiv-roleplay-hub-api"
+rootProject.name = "mock"

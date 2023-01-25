@@ -1,0 +1,24 @@
+{
+  "eventType": "spot",
+  "scheduleType": "S",
+  "scheduleDate": "25/01/2023",
+  "breakId": 125231352,
+  "itvBreakId": null,
+  "scteUniqueProgrammeId": 50763,
+  "scteSpliceEventId": 125231352,
+  "duration": "PT3M30S",
+  "bxfId": "7e9daa52-ba95-661d-d7d4-d72d9499bba9",
+  "spots": [
+    {
+      "id": 71949692,
+      "scteUniqueProgrammeId": 1611,
+      "scteSpliceEventId": 71949692,
+      "duration": "PT30S",
+      "broadcastDateTime": "2023-01-25T13:55:00.000Z",
+      "positionInBreak": 7,
+      "totalPositions": 7,
+      "bxfId": "e0a5ef47-f794-41c5-dcb7-ab700f039a3d"
+    }
+  ],
+  "scteRegionId": 11
+}

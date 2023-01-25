@@ -1,0 +1,283 @@
+{
+  "_embedded": {
+    "events": [
+      {
+        "id": "{76B67795-FF7DDBDF}",
+        "bxfId": "4b2dae70-8941-67cb-ffdc-957e0c9fdb7b",
+        "type": "SPOT",
+        "subtype": "COMM",
+        "live": null,
+        "startTime": "2023-01-13T10:55:28:13Z",
+        "duration": "00:00:30:00",
+        "productionId": "FOW-CINC007-030",
+        "materialId": "ITV_FOW-CINC007-030_TX",
+        "title": "CINCH - CINCH30S DRTVCINCHING THE NATION99 APR -",
+        "channel": {
+          "id": 2,
+          "name": "ITV2",
+          "region": "IT2"
+        },
+        "lastModifiedTime": "2023-01-13T10:28:15.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 19828313,
+            "commandType": "TIME_SIGNAL"
+          },
+          {
+            "id": 71928045,
+            "commandType": "SPLICE_INSERT"
+          }
+        ]
+      },
+      {
+        "id": "{41A8518D-620F3680}",
+        "bxfId": "c8790f19-abd9-48f2-fbfe-c57dc4ae05ad",
+        "type": "SPOT",
+        "subtype": "COMM",
+        "live": null,
+        "startTime": "2023-01-13T10:55:58:13Z",
+        "duration": "00:00:10:00",
+        "productionId": "PAC-MPNR001-010",
+        "materialId": "ITV_PAC-MPNR001-010_TX",
+        "title": "MANY PETS - DOLLA 10 -",
+        "channel": {
+          "id": 2,
+          "name": "ITV2",
+          "region": "IT2"
+        },
+        "lastModifiedTime": "2023-01-13T10:28:15.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 19828318,
+            "commandType": "TIME_SIGNAL"
+          },
+          {
+            "id": 71928144,
+            "commandType": "SPLICE_INSERT"
+          }
+        ]
+      },
+      {
+        "id": "{24921944-5ABD4E84}",
+        "bxfId": "e338af85-2ad8-cbce-efd7-d09e877f27a9",
+        "type": "SPOT",
+        "subtype": "COMM",
+        "live": null,
+        "startTime": "2023-01-13T10:56:08:13Z",
+        "duration": "00:01:00:00",
+        "productionId": "ABF-PCWW504-060",
+        "materialId": "ITV_ABF-PCWW504-060_TX",
+        "title": "PURE CREMATION WHEREVER WHENEVER 60? ITV DIG V6",
+        "channel": {
+          "id": 2,
+          "name": "ITV2",
+          "region": "IT2"
+        },
+        "lastModifiedTime": "2023-01-13T10:28:15.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 19828323,
+            "commandType": "TIME_SIGNAL"
+          },
+          {
+            "id": 72021744,
+            "commandType": "SPLICE_INSERT"
+          }
+        ]
+      },
+      {
+        "id": "{1A040744-A4D99911}",
+        "bxfId": "1fb4ac9d-55e4-490d-88a3-9482f9eaf269",
+        "type": "SPOT",
+        "subtype": "COMM",
+        "live": null,
+        "startTime": "2023-01-13T10:57:08:13Z",
+        "duration": "00:00:20:00",
+        "productionId": "GOH-GHEN081-020",
+        "materialId": "ITV_GOH-GHEN081-020_TX",
+        "title": "PREPARED FOR LIFE (OFFER)",
+        "channel": {
+          "id": 2,
+          "name": "ITV2",
+          "region": "IT2"
+        },
+        "lastModifiedTime": "2023-01-13T10:28:15.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 19874209,
+            "commandType": "TIME_SIGNAL"
+          },
+          {
+            "id": 72040215,
+            "commandType": "SPLICE_INSERT"
+          }
+        ]
+      },
+      {
+        "id": "{5169DBC3-31D311B6}",
+        "bxfId": "7cb29c20-e206-cfbf-8f78-dded75c058b3",
+        "type": "BUMPER",
+        "subtype": "BUMP",
+        "live": null,
+        "startTime": "2023-01-13T10:57:28:13Z",
+        "duration": "00:00:01:12",
+        "productionId": "NK23030008",
+        "materialId": "ITV_NK23030008_TX",
+        "title": "LOVE ISLAND JAN 2023 BREAK BUMPERS 00-01 IAIN VERSION 1",
+        "channel": {
+          "id": 2,
+          "name": "ITV2",
+          "region": "IT2"
+        },
+        "lastModifiedTime": "2023-01-13T10:28:15.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 19828327,
+            "commandType": "TIME_SIGNAL"
+          }
+        ]
+      },
+      {
+        "id": "{28C9208E-F2AC7066}",
+        "bxfId": "0e082664-c1cc-e6d9-d8a4-d3d288cb3b27",
+        "type": "PROMO",
+        "subtype": "LPRM",
+        "live": null,
+        "startTime": "2023-01-13T10:57:30:00Z",
+        "duration": "00:00:10:00",
+        "productionId": "NX22490033",
+        "materialId": "ITV_NX22490033_TX",
+        "title": "X2 - LOADED IN PARADISE LAUNCH 00-10 STREAM NOW",
+        "channel": {
+          "id": 2,
+          "name": "ITV2",
+          "region": "IT2"
+        },
+        "lastModifiedTime": "2023-01-13T10:28:15.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 19826858,
+            "commandType": "TIME_SIGNAL"
+          }
+        ]
+      },
+      {
+        "id": "{4F7CF63B-14B967E1}",
+        "bxfId": "0d585f6c-3cd5-6fbb-82be-af1d3ef12aec",
+        "type": "PROMO",
+        "subtype": "LPRM",
+        "live": null,
+        "startTime": "2023-01-13T10:57:40:00Z",
+        "duration": "00:00:30:00",
+        "productionId": "NP22010272",
+        "materialId": "ITV_NP22010272_TX",
+        "title": "B2 - MATERNAL S1 LAUNCH 00-30 MONDAY",
+        "channel": {
+          "id": 2,
+          "name": "ITV2",
+          "region": "IT2"
+        },
+        "lastModifiedTime": "2023-01-13T10:28:15.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 19826859,
+            "commandType": "TIME_SIGNAL"
+          }
+        ]
+      },
+      {
+        "id": "{57F32F56-C127E29D}",
+        "bxfId": "2be9cb48-84b9-6a76-f67f-c3e72740667e",
+        "type": "PROMO",
+        "subtype": "IDEN",
+        "live": null,
+        "startTime": "2023-01-13T10:58:10:00Z",
+        "duration": "00:00:15:00",
+        "productionId": "NK22460007",
+        "materialId": "ITV_NK22460007_TX",
+        "title": "ITV2 BRANDING 22/23 - BOND IDENTS 00-30 REMAKE ITV2 RURAL - FESTIVAL",
+        "channel": {
+          "id": 2,
+          "name": "ITV2",
+          "region": "IT2"
+        },
+        "lastModifiedTime": "2023-01-13T10:28:36.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 19826860,
+            "commandType": "TIME_SIGNAL"
+          }
+        ]
+      },
+      {
+        "id": "{4805D743-BDC69F25}",
+        "bxfId": "1ad170bf-4ab7-6c47-86f1-ef4e3351c166",
+        "type": "SPONSORSHIP",
+        "subtype": "SPON",
+        "live": null,
+        "startTime": "2023-01-13T10:58:25:00Z",
+        "duration": "00:00:15:00",
+        "productionId": "SPO-USEM-001-15",
+        "materialId": "ITV_SPO-USEM-001-15_TX",
+        "title": "EMMA ITV2 SPONSORSHIP IDENT UK 15",
+        "channel": {
+          "id": 2,
+          "name": "ITV2",
+          "region": "IT2"
+        },
+        "lastModifiedTime": "2023-01-13T10:28:46.000Z",
+        "versionCcid": null,
+        "scte": [
+          {
+            "id": 19826861,
+            "commandType": "TIME_SIGNAL"
+          }
+        ]
+      },
+      {
+        "id": "{624F695D-CF9072E4}",
+        "bxfId": "c6f6c91a-644e-6872-f28b-9c3362905305",
+        "type": "CHAPTER",
+        "subtype": "PROG",
+        "live": false,
+        "startTime": "2023-01-13T10:58:40:00Z",
+        "duration": "00:09:35:05",
+        "productionId": "10-2468-0008-001",
+        "materialId": "ITV_10-2468-0008-001_HD_TX",
+        "title": "THE O.C.",
+        "channel": {
+          "id": 2,
+          "name": "ITV2",
+          "region": "IT2"
+        },
+        "lastModifiedTime": "2023-01-13T10:28:46.000Z",
+        "versionCcid": "8mnxzff",
+        "scte": [
+          {
+            "id": 19826862,
+            "commandType": "TIME_SIGNAL"
+          }
+        ]
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "https://api.prd.bs.itv.com/on-air-event-api/events/channel/ITV2.IT2?periodMinutes=7&bxfId=4b2dae70-8941-67cb-ffdc-957e0c9fdb7b&page=1&size=40"
+    }
+  },
+  "page": {
+    "size": 40,
+    "totalElements": 10,
+    "totalPages": 1,
+    "number": 1
+  }
+}

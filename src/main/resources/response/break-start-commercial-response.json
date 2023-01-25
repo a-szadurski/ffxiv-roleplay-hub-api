@@ -1,0 +1,54 @@
+{
+  "eventType": "break",
+  "scheduleType": "S",
+  "scheduleDate": "23/01/2023",
+  "breakId": 123231110,
+  "itvBreakId": null,
+  "scteUniqueProgrammeId": 50123,
+  "scteSpliceEventId": 123231110,
+  "duration": "PT1M30S",
+  "bxfId": "91fd609d-c2db-65b6-9f2f-df09ac4b4b08",
+  "spots": [
+    {
+      "id": 72078223,
+      "scteUniqueProgrammeId": 971,
+      "scteSpliceEventId": 72078223,
+      "duration": "PT20S",
+      "broadcastDateTime": "2023-01-23T11:07Z",
+      "positionInBreak": 1,
+      "totalPositions": 4,
+      "bxfId": "fc95d7d3-7d6c-ce78-87c7-cd0bb7086eb8"
+    },
+    {
+      "id": 71948941,
+      "scteUniqueProgrammeId": 971,
+      "scteSpliceEventId": 71948941,
+      "duration": "PT30S",
+      "broadcastDateTime": "2023-01-23T11:07:20Z",
+      "positionInBreak": 2,
+      "totalPositions": 4,
+      "bxfId": "2cf577e2-7c4d-ccaf-c51b-dd8f46e232e9"
+    },
+    {
+      "id": 71948949,
+      "scteUniqueProgrammeId": 971,
+      "scteSpliceEventId": 71948949,
+      "duration": "PT30S",
+      "broadcastDateTime": "2023-01-23T11:07:50Z",
+      "positionInBreak": 3,
+      "totalPositions": 4,
+      "bxfId": "0309dcca-106e-6e90-8b14-f8baf197814c"
+    },
+    {
+      "id": 71948940,
+      "scteUniqueProgrammeId": 971,
+      "scteSpliceEventId": 71948940,
+      "duration": "PT10S",
+      "broadcastDateTime": "2023-01-23T11:08:20Z",
+      "positionInBreak": 4,
+      "totalPositions": 4,
+      "bxfId": "b8eb09ce-e616-6f33-f9fe-9c23551eca98"
+    }
+  ],
+  "scteRegionId": 11
+}
